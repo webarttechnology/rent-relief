@@ -1,0 +1,2490 @@
+@media only screen and (max-width: 1023px) {
+    .rent-video-text p {
+        line-height: 24px;
+        font-size: 13px;
+    }
+
+    .about-image-text p {
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .about-image-text h5 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 0;
+        margin-top: -40px;
+    }
+
+    /* .flex-row-reverse .create-icon {
+        width: 250px;
+        padding-right: 21px;
+        padding-left: 56px;
+        margin-left: -81px;
+    } */
+
+    /* .create-icon {
+        width: 250px;
+        padding-left: 80px;
+        margin-right: -11px;
+    } */
+    /* .create-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } */
+    .account .row::after {
+        left: 0;
+    }
+    .create-icon {
+        line-height: 100px;
+    }
+    .create-text {
+        flex: 0 0 66%;
+        width: 66%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .stellarnav.mobile ul {
+        background: #000000d6;
+    }
+
+    .stellarnav li a {
+        padding: 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: inherit;
+        font-family: inherit;
+        box-sizing: border-box;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        font-weight: bold;
+        /* border-bottom: 0; */
+    }
+
+    .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 15px;
+        height: 2px;
+        border-radius: 6px;
+        background: #fff;
+        margin: 0 0 3px;
+    }
+
+    .stellarnav.mobile {
+        position: static;
+        padding-left: 30rem;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 17px;
+        padding-top: 14px;
+    }
+
+    .rent-home-banner-text h1 {
+        font-size: 24px;
+        padding-top: 138px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .rent-home-banner-form label {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .home-banner-text-group {
+        padding-top: 46px;
+    }
+
+    .about-image-text p {
+        font-weight: 400;
+        font-size: 11px;
+        padding-top: 0;
+        /* text-align: center; */
+    }
+
+    .rent-home-banner-text .number {
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .rent-home-banner h6 {
+        padding-right: 0;
+        padding-bottom: 16px;
+        font-size: 18px;
+        color: #6ee7b7;
+        position: relative;
+        z-index: 1;
+        padding-top: 23px;
+    }
+
+    .rent-home-banner-form {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        background: rgb(255 255 255 / 21%);
+        padding: 34px 36px;
+        box-shadow: 0px 4px -1px #757171;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .video {
+        margin-top: -28px;
+    }
+
+    .rent-video-text {
+        padding-top: 0;
+    }
+
+    .why-choose {
+        margin-top: -46px;
+    }
+
+    .quality {
+        margin-top: -43px;
+    }
+
+    .about-image-text h2 {
+        padding-bottom: 15px;
+        color: #6ee7b7;
+        font-family: "DM Serif Display", serif;
+        font-weight: 800;
+        font-size: 46px;
+        letter-spacing: 10px;
+        position: relative;
+        left: -102px;
+        top: -16px;
+        text-shadow: 1px 1px 46px #fff;
+        text-align: center;
+    }
+
+    .about-image-text h5 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 4px;
+        margin-top: -37px;
+        /* text-align: center; */
+    }
+
+    .why-choose h1 {
+        text-align: center;
+        padding-bottom: 67px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .icon-image-home {
+        box-shadow: 1px 1px 6px 1px #a7a7a7;
+        padding: 32px 16px;
+        transition: 0.3s;
+        margin-bottom: 21px;
+    }
+
+    .home-content-text h3 {
+        padding-top: 16px;
+        font-size: 18px;
+    }
+
+    .home-content-text p {
+        font-size: 11px;
+    }
+
+    .rent-video-text h2 {
+        padding-bottom: 7px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 29px;
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .rent-video-text p {
+        line-height: 21px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .play-button {
+        position: absolute;
+        bottom: 0;
+        left: -4px;
+        top: -29px;
+        right: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+    }
+
+    .quality h2 {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 49px;
+    }
+
+    .quality-text {
+        border-right: 0;
+    }
+
+    .quality-text p {
+        font-size: 20px;
+    }
+
+    .quality-text i {
+        font-size: 31px;
+    }
+
+    .brands h2 {
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 62px;
+        font-size: 34px;
+    }
+
+    .heading_style {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 43px;
+    }
+
+    .acount-one {
+        width: 100%;
+        float: left;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .create-icon {
+        width: 142px;
+        padding-left: 0;
+    } */
+    .acount-one {
+        width: 100%;
+        float: left;
+        flex-direction: column-reverse !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .create-text {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .create-image {
+        position: static;
+    }
+
+    .account .row::after {
+        position: absolute;
+        left: 0;
+        margin: 0 auto;
+        top: 92%;
+        right: 0;
+        width: 1px;
+        height: 80px;
+        content: "";
+        background: #0284cd;
+    }
+
+    .footer-form-text h1 {
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        font-family: 'DM Serif Display', serif;
+        font-size: 25px;
+        padding-top: 18px;
+        padding-bottom: 15px;
+    }
+
+    .footer-part {
+        background-color: #000;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .middel-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .middel-footer li {
+        padding-bottom: 15px;
+        padding-right: 32px;
+    }
+
+    .contact article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contact ul li {
+        color: #fff;
+        /* padding-right: 37px; */
+        font-size: 9px;
+    }
+
+    .bootom-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .bootom-footer nav {
+        padding-left: 5px;
+        padding-bottom: 41px;
+    }
+
+    .bootom-footer-content p {
+        font-size: 14px;
+    }
+
+    .footer-text p {
+        color: #fff;
+        padding-top: 28px;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .middel-footer ul li a {
+        color: #fff;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .middel-footer ul {
+        text-align: left;
+    }
+
+    .contact ul {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .stellarnav.mobile ul {
+        background: #000000d6;
+    }
+
+    .video {
+        margin-top: -88px;
+    }
+
+    .middel-footer ul {
+        text-align: center;
+    }
+
+    .contact ul {
+        text-align: center;
+    }
+
+    .stellarnav li a {
+        padding: 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: inherit;
+        font-family: inherit;
+        box-sizing: border-box;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        font-weight: bold;
+        /* border-bottom: 0; */
+    }
+
+    .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 15px;
+        height: 2px;
+        border-radius: 6px;
+        background: #fff;
+        margin: 0 0 3px;
+    }
+
+    .stellarnav.mobile {
+        position: static;
+        padding-left: 22rem;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .rent-home-banner-text h1 {
+        font-size: 20px;
+        padding-top: 0;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .rent-home-banner-text .number {
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .rent-home-banner h6 {
+        padding-right: 0;
+        padding-bottom: 16px;
+        font-size: 18px;
+        color: #6ee7b7;
+        position: relative;
+        z-index: 1;
+        padding-top: 23px;
+    }
+
+    .rent-home-banner-form {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        background: rgb(255 255 255 / 21%);
+        padding: 34px 36px;
+        box-shadow: 0px 4px -1px #757171;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .about-image-text p {
+
+        font-size: 16px;
+
+    }
+
+    .about-image-text h2 {
+        padding-bottom: 15px;
+        color: #6ee7b7;
+        font-family: "DM Serif Display", serif;
+        font-weight: 800;
+        font-size: 36px;
+        letter-spacing: 10px;
+        position: relative;
+        left: 0px;
+        top: -16px;
+        text-shadow: 1px 1px 46px #fff;
+        text-align: center;
+    }
+
+    .about-image-text h5 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 4px;
+        margin-top: -28px;
+        text-align: center;
+    }
+
+    .why-choose h1 {
+        text-align: center;
+        padding-bottom: 67px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .icon-image-home {
+        box-shadow: 1px 1px 6px 1px #a7a7a7;
+        padding: 32px 16px;
+        transition: 0.3s;
+        margin-bottom: 21px;
+    }
+
+    .home-content-text h3 {
+        padding-top: 16px;
+        font-size: 21px;
+    }
+
+    .home-content-text p {
+        font-size: 15px;
+    }
+
+    .rent-video-text h2 {
+        padding-bottom: 7px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 29px;
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .rent-video-text p {
+        line-height: 31px;
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .play-button {
+        position: absolute;
+        bottom: 0;
+        left: -4px;
+        top: -29px;
+        right: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+    }
+
+    .quality h2 {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 49px;
+    }
+
+    .quality-text {
+        border-right: 0;
+    }
+
+    .quality-text p {
+        font-size: 20px;
+    }
+
+    .quality-text i {
+        font-size: 31px;
+    }
+
+    .brands h2 {
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 62px;
+        font-size: 34px;
+    }
+
+    .heading_style {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 43px;
+    }
+
+    .acount-one {
+        width: 100%;
+        float: left;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .create-icon {
+        width: 142px;
+        padding-left: 0;
+    } */
+
+    .account .row::after {
+        position: absolute;
+        left: 0;
+        margin: 0 auto;
+        top: 92%;
+        right: 0;
+        width: 1px;
+        height: 80px;
+        content: "";
+        background: #0284cd;
+    }
+
+    .footer-form-text h1 {
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        font-family: 'DM Serif Display', serif;
+        font-size: 25px;
+        padding-top: 18px;
+        padding-bottom: 15px;
+    }
+
+    .footer-part {
+        background-color: #000;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .middel-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .middel-footer li {
+        padding-bottom: 15px;
+        padding-right: 32px;
+    }
+
+    .contact article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contact ul li {
+        color: #fff;
+        padding-right: 37px;
+        font-size: 14px;
+    }
+
+    .bootom-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .bootom-footer nav {
+        padding-left: 5px;
+        padding-bottom: 41px;
+    }
+
+    .bootom-footer-content p {
+        font-size: 14px;
+    }
+
+    .footer-text p {
+        color: #fff;
+        padding-top: 27px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .stellarnav.mobile ul {
+        background: #000000d6;
+    }
+
+    .video {
+        margin-top: -88px;
+    }
+
+    .middel-footer ul {
+        text-align: center;
+    }
+
+    .contact ul {
+        text-align: center;
+    }
+
+    .stellarnav li a {
+        padding: 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: inherit;
+        font-family: inherit;
+        box-sizing: border-box;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        font-weight: bold;
+        /* border-bottom: 0; */
+    }
+
+    .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 15px;
+        height: 2px;
+        border-radius: 6px;
+        background: #fff;
+        margin: 0 0 3px;
+    }
+
+    .stellarnav.mobile {
+        position: static;
+        padding-left: 18rem;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .rent-home-banner-text h1 {
+        font-size: 20px;
+        padding-top: 0;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .rent-home-banner-text .number {
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .rent-home-banner h6 {
+        padding-right: 0;
+        padding-bottom: 16px;
+        font-size: 18px;
+        color: #6ee7b7;
+        position: relative;
+        z-index: 1;
+        padding-top: 23px;
+    }
+
+    .rent-home-banner-form {
+        position: relative;
+        z-index: 1;
+        color: #000;
+        background: rgb(255 255 255 / 21%);
+        padding: 34px 36px;
+        box-shadow: 0px 4px -1px #757171;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .about-image-text p {
+
+        font-size: 16px;
+
+    }
+
+    .about-image-text h2 {
+        padding-bottom: 15px;
+        color: #6ee7b7;
+        font-family: "DM Serif Display", serif;
+        font-weight: 800;
+        font-size: 36px;
+        letter-spacing: 10px;
+        position: relative;
+        left: 0px;
+        top: -16px;
+        text-shadow: 1px 1px 46px #fff;
+        text-align: center;
+    }
+
+    .about-image-text h5 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 4px;
+        margin-top: -28px;
+        text-align: center;
+    }
+
+    .why-choose h1 {
+        text-align: center;
+        padding-bottom: 67px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .icon-image-home {
+        box-shadow: 1px 1px 6px 1px #a7a7a7;
+        padding: 32px 16px;
+        transition: 0.3s;
+        margin-bottom: 21px;
+    }
+
+    .home-content-text h3 {
+        padding-top: 16px;
+        font-size: 21px;
+    }
+
+    .home-content-text p {
+        font-size: 15px;
+    }
+
+    .rent-video-text h2 {
+        padding-bottom: 7px;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 29px;
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .rent-video-text p {
+        line-height: 31px;
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .play-button {
+        position: absolute;
+        bottom: 0;
+        left: -4px;
+        top: -29px;
+        right: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+    }
+
+    .quality h2 {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 49px;
+    }
+
+    .quality-text {
+        border-right: 0;
+    }
+
+    .quality-text p {
+        font-size: 20px;
+    }
+
+    .quality-text i {
+        font-size: 31px;
+    }
+
+    .brands h2 {
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 62px;
+        font-size: 34px;
+    }
+
+    .heading_style {
+        text-align: center;
+        color: #6ee7b7;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 43px;
+    }
+
+    .acount-one {
+        width: 100%;
+        float: left;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* .create-icon {
+        width: 142px;
+        padding-left: 0;
+    } */
+
+    .account .row::after {
+        position: absolute;
+        left: 0;
+        margin: 0 auto;
+        top: 92%;
+        right: 0;
+        width: 1px;
+        height: 80px;
+        content: "";
+        background: #0284cd;
+    }
+
+    .footer-form-text h1 {
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        font-family: 'DM Serif Display', serif;
+        font-size: 25px;
+        padding-top: 18px;
+        padding-bottom: 15px;
+    }
+
+    .footer-part {
+        background-color: #000;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .middel-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .middel-footer li {
+        padding-bottom: 15px;
+        padding-right: 32px;
+    }
+
+    .contact article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contact ul li {
+        color: #fff;
+        padding-right: 37px;
+        font-size: 14px;
+    }
+
+    .bootom-footer article {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .bootom-footer nav {
+        padding-left: 5px;
+        padding-bottom: 41px;
+    }
+
+    .bootom-footer-content p {
+        font-size: 14px;
+    }
+
+    .footer-text p {
+        color: #fff;
+        padding-top: 27px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+ @media only screen and (max-width: 414px) {
+    .stellarnav.mobile ul {
+        background: #000000d6;
+    }
+    
+
+    .stellarnav li a {
+        padding: 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: inherit;
+        font-family: inherit;
+        box-sizing: border-box;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        font-weight: bold;
+        /* border-bottom: 0; */
+
+
+        .stellarnav .menu-toggle span.bars span {
+            display: block;
+            width: 15px;
+            height: 2px;
+            border-radius: 6px;
+            background: #fff;
+            margin: 0 0 3px;
+        }
+
+        .stellarnav.mobile {
+            position: static;
+            padding-left: 0rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .rent-home-banner-text h1 {
+            font-size: 20px;
+            padding-top: 0;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .rent-home-banner-text .number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+
+        .rent-home-banner h6 {
+            padding-right: 0;
+            padding-bottom: 16px;
+            font-size: 18px;
+            color: #6ee7b7;
+            position: relative;
+            z-index: 1;
+            padding-top: 23px;
+        }
+
+        .rent-home-banner-form {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            background: rgb(255 255 255 / 21%);
+            padding: 34px 36px;
+            box-shadow: 0px 4px -1px #757171;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .about-image-text h2 {
+            padding-bottom: 15px;
+            color: #6ee7b7;
+            font-family: "DM Serif Display", serif;
+            font-weight: 800;
+            font-size: 36px;
+            letter-spacing: 10px;
+            position: relative;
+            left: 0px;
+            top: -16px;
+            text-shadow: 1px 1px 46px #fff;
+            text-align: center;
+        }
+
+        .about-image-text h5 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-top: -28px;
+            text-align: center;
+        }
+
+        .why-choose h1 {
+            text-align: center;
+            padding-bottom: 67px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        .icon-image-home {
+            box-shadow: 1px 1px 6px 1px #a7a7a7;
+            padding: 32px 16px;
+            transition: 0.3s;
+            margin-bottom: 21px;
+        }
+
+        .home-content-text h3 {
+            padding-top: 16px;
+            font-size: 21px;
+        }
+
+        .home-content-text p {
+            font-size: 15px;
+        }
+
+        .rent-video-text h2 {
+            padding-bottom: 7px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 29px;
+            padding-left: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .rent-video-text p {
+            line-height: 31px;
+            font-size: 19px;
+            text-align: left;
+        }
+
+        .play-button {
+            position: absolute;
+            bottom: 0;
+            left: -4px;
+            top: -29px;
+            right: 0;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+        }
+
+        .quality h2 {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 49px;
+        }
+
+        .quality-text {
+            border-right: 0;
+        }
+
+        .quality-text p {
+            font-size: 20px;
+        }
+
+        .quality-text i {
+            font-size: 31px;
+        }
+
+        .brands h2 {
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 34px;
+        }
+
+        .heading_style {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 43px;
+        }
+
+        .acount-one {
+            width: 100%;
+            float: left;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .create-icon {
+            width: 142px;
+            padding-left: 0;
+        }
+
+        .account .row::after {
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 92%;
+            right: 0;
+            width: 1px;
+            height: 80px;
+            content: "";
+            background: #0284cd;
+        }
+
+        .footer-form-text h1 {
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            font-family: 'DM Serif Display', serif;
+            font-size: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+        }
+
+        .footer-part {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .middel-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .middel-footer li {
+            padding-bottom: 15px;
+            padding-right: 32px;
+        }
+
+        .contact article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact ul li {
+            color: #fff;
+
+            padding-right: 37px;
+        }
+
+        .bootom-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .bootom-footer nav {
+            padding-left: 5px;
+            padding-bottom: 41px;
+        }
+
+        .bootom-footer-content p {
+            font-size: 14px;
+        }
+
+        .footer-text p {
+            color: #fff;
+            padding-top: 27px;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+        }
+    }
+} 
+
+     @media only screen and (max-width: 375px) {
+        .stellarnav.mobile ul {
+            background: #000000d6;
+        }
+
+        .video {
+            margin-top: -88px;
+        }
+
+        .middel-footer ul {
+            text-align: center;
+        }
+
+        .contact ul {
+            text-align: center;
+        }
+
+        .stellarnav li a {
+            padding: 25px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: inherit;
+            font-family: inherit;
+            box-sizing: border-box;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+            font-weight: bold;
+            /* border-bottom: 0; */
+        }
+
+        .stellarnav .menu-toggle span.bars span {
+            display: block;
+            width: 15px;
+            height: 2px;
+            border-radius: 6px;
+            background: #fff;
+            margin: 0 0 3px;
+        }
+
+        .stellarnav.mobile {
+            position: static;
+            padding-left: 13rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .rent-home-banner-text h1 {
+            font-size: 20px;
+            padding-top: 0;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .rent-home-banner-text .number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+
+        .rent-home-banner h6 {
+            padding-right: 0;
+            padding-bottom: 16px;
+            font-size: 18px;
+            color: #6ee7b7;
+            position: relative;
+            z-index: 1;
+            padding-top: 23px;
+        }
+
+        .rent-home-banner-form {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            background: rgb(255 255 255 / 21%);
+            padding: 34px 36px;
+            box-shadow: 0px 4px -1px #757171;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .about-image-text p {
+
+            font-size: 16px;
+
+        }
+
+        .about-image-text h2 {
+            padding-bottom: 15px;
+            color: #6ee7b7;
+            font-family: "DM Serif Display", serif;
+            font-weight: 800;
+            font-size: 36px;
+            letter-spacing: 10px;
+            position: relative;
+            left: 0px;
+            top: -16px;
+            text-shadow: 1px 1px 46px #fff;
+            text-align: center;
+        }
+
+        .about-image-text h5 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-top: -28px;
+            text-align: center;
+        }
+
+        .why-choose h1 {
+            text-align: center;
+            padding-bottom: 67px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        .icon-image-home {
+            box-shadow: 1px 1px 6px 1px #a7a7a7;
+            padding: 32px 16px;
+            transition: 0.3s;
+            margin-bottom: 21px;
+        }
+
+        .home-content-text h3 {
+            padding-top: 16px;
+            font-size: 21px;
+        }
+
+        .home-content-text p {
+            font-size: 15px;
+        }
+
+        .rent-video-text h2 {
+            padding-bottom: 7px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 29px;
+            padding-left: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .rent-video-text p {
+            line-height: 31px;
+            font-size: 19px;
+            text-align: left;
+        }
+
+        .play-button {
+            position: absolute;
+            bottom: 0;
+            left: -4px;
+            top: -29px;
+            right: 0;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+        }
+
+        .quality h2 {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 49px;
+        }
+
+        .quality-text {
+            border-right: 0;
+        }
+
+        .quality-text p {
+            font-size: 20px;
+        }
+
+        .quality-text i {
+            font-size: 31px;
+        }
+
+        .brands h2 {
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 34px;
+        }
+
+        .heading_style {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 43px;
+        }
+
+        .acount-one {
+            width: 100%;
+            float: left;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* .create-icon {
+            width: 142px;
+            padding-left: 0;
+        } */
+
+        .account .row::after {
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 92%;
+            right: 0;
+            width: 1px;
+            height: 80px;
+            content: "";
+            background: #0284cd;
+        }
+
+        .footer-form-text h1 {
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            font-family: 'DM Serif Display', serif;
+            font-size: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+        }
+
+        .footer-part {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .middel-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .middel-footer li {
+            padding-bottom: 15px;
+            padding-right: 32px;
+        }
+
+        .contact article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact ul li {
+            color: #fff;
+            padding-right: 37px;
+            font-size: 14px;
+        }
+
+        .bootom-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .bootom-footer nav {
+            padding-left: 5px;
+            padding-bottom: 41px;
+        }
+
+        .bootom-footer-content p {
+            font-size: 14px;
+        }
+
+        .footer-text p {
+            color: #fff;
+            padding-top: 27px;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 360px) {
+        .stellarnav.mobile ul {
+            background: #000000d6;
+        }
+
+        .video {
+            margin-top: -88px;
+        }
+
+        .middel-footer ul {
+            text-align: center;
+        }
+
+        .contact ul {
+            text-align: center;
+        }
+
+        .stellarnav li a {
+            padding: 25px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: inherit;
+            font-family: inherit;
+            box-sizing: border-box;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+            font-weight: bold;
+            /* border-bottom: 0; */
+        }
+
+        .stellarnav .menu-toggle span.bars span {
+            display: block;
+            width: 15px;
+            height: 2px;
+            border-radius: 6px;
+            background: #fff;
+            margin: 0 0 3px;
+        }
+
+        .stellarnav.mobile {
+            position: static;
+            padding-left: 13rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .rent-home-banner-text h1 {
+            font-size: 20px;
+            padding-top: 0;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .rent-home-banner-text .number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+
+        .rent-home-banner h6 {
+            padding-right: 0;
+            padding-bottom: 16px;
+            font-size: 18px;
+            color: #6ee7b7;
+            position: relative;
+            z-index: 1;
+            padding-top: 23px;
+        }
+
+        .rent-home-banner-form {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            background: rgb(255 255 255 / 21%);
+            padding: 34px 36px;
+            box-shadow: 0px 4px -1px #757171;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .about-image-text p {
+
+            font-size: 16px;
+
+        }
+
+        .about-image-text h2 {
+            padding-bottom: 15px;
+            color: #6ee7b7;
+            font-family: "DM Serif Display", serif;
+            font-weight: 800;
+            font-size: 36px;
+            letter-spacing: 10px;
+            position: relative;
+            left: 0px;
+            top: -16px;
+            text-shadow: 1px 1px 46px #fff;
+            text-align: center;
+        }
+
+        .about-image-text h5 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-top: -28px;
+            text-align: center;
+        }
+
+        .why-choose h1 {
+            text-align: center;
+            padding-bottom: 67px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        .icon-image-home {
+            box-shadow: 1px 1px 6px 1px #a7a7a7;
+            padding: 32px 16px;
+            transition: 0.3s;
+            margin-bottom: 21px;
+        }
+
+        .home-content-text h3 {
+            padding-top: 16px;
+            font-size: 21px;
+        }
+
+        .home-content-text p {
+            font-size: 15px;
+        }
+
+        .rent-video-text h2 {
+            padding-bottom: 7px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 29px;
+            padding-left: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .rent-video-text p {
+            line-height: 31px;
+            font-size: 19px;
+            text-align: left;
+        }
+
+        .play-button {
+            position: absolute;
+            bottom: 0;
+            left: -4px;
+            top: -29px;
+            right: 0;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+        }
+
+        .quality h2 {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 49px;
+        }
+
+        .quality-text {
+            border-right: 0;
+        }
+
+        .quality-text p {
+            font-size: 20px;
+        }
+
+        .quality-text i {
+            font-size: 31px;
+        }
+
+        .brands h2 {
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 34px;
+        }
+
+        .heading_style {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 43px;
+        }
+
+        .acount-one {
+            width: 100%;
+            float: left;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* .create-icon {
+            width: 142px;
+            padding-left: 0;
+        } */
+
+        .account .row::after {
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 92%;
+            right: 0;
+            width: 1px;
+            height: 80px;
+            content: "";
+            background: #0284cd;
+        }
+
+        .footer-form-text h1 {
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            font-family: 'DM Serif Display', serif;
+            font-size: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+        }
+
+        .footer-part {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .middel-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .middel-footer li {
+            padding-bottom: 15px;
+            padding-right: 32px;
+        }
+
+        .contact article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact ul li {
+            color: #fff;
+            padding-right: 37px;
+            font-size: 14px;
+        }
+
+        .bootom-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .bootom-footer nav {
+            padding-left: 5px;
+            padding-bottom: 41px;
+        }
+
+        .bootom-footer-content p {
+            font-size: 14px;
+        }
+
+        .footer-text p {
+            color: #fff;
+            padding-top: 27px;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .stellarnav.mobile ul {
+            background: #000000d6;
+        }
+
+        .video {
+            margin-top: -88px;
+        }
+
+        .middel-footer ul {
+            text-align: center;
+        }
+
+        .contact ul {
+            text-align: center;
+        }
+
+        .stellarnav li a {
+            padding: 25px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: inherit;
+            font-family: inherit;
+            box-sizing: border-box;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+            font-weight: bold;
+            /* border-bottom: 0; */
+        }
+
+        .stellarnav .menu-toggle span.bars span {
+            display: block;
+            width: 15px;
+            height: 2px;
+            border-radius: 6px;
+            background: #fff;
+            margin: 0 0 3px;
+        }
+
+        .stellarnav.mobile {
+            position: static;
+            padding-left: 11rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .rent-home-banner-text h1 {
+            font-size: 20px;
+            padding-top: 0;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .rent-home-banner-text .number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+
+        .rent-home-banner h6 {
+            padding-right: 0;
+            padding-bottom: 16px;
+            font-size: 18px;
+            color: #6ee7b7;
+            position: relative;
+            z-index: 1;
+            padding-top: 23px;
+        }
+
+        .rent-home-banner-form {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            background: rgb(255 255 255 / 21%);
+            padding: 34px 36px;
+            box-shadow: 0px 4px -1px #757171;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .about-image-text p {
+
+            font-size: 16px;
+
+        }
+
+        .about-image-text h2 {
+            padding-bottom: 15px;
+            color: #6ee7b7;
+            font-family: "DM Serif Display", serif;
+            font-weight: 800;
+            font-size: 36px;
+            letter-spacing: 10px;
+            position: relative;
+            left: 0px;
+            top: -16px;
+            text-shadow: 1px 1px 46px #fff;
+            text-align: center;
+        }
+
+        .about-image-text h5 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-top: -28px;
+            text-align: center;
+        }
+
+        .why-choose h1 {
+            text-align: center;
+            padding-bottom: 67px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        .icon-image-home {
+            box-shadow: 1px 1px 6px 1px #a7a7a7;
+            padding: 32px 16px;
+            transition: 0.3s;
+            margin-bottom: 21px;
+        }
+
+        .home-content-text h3 {
+            padding-top: 16px;
+            font-size: 21px;
+        }
+
+        .home-content-text p {
+            font-size: 15px;
+        }
+
+        .rent-video-text h2 {
+            padding-bottom: 7px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 29px;
+            padding-left: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .rent-video-text p {
+            line-height: 31px;
+            font-size: 19px;
+            text-align: left;
+        }
+
+        .play-button {
+            position: absolute;
+            bottom: 0;
+            left: -4px;
+            top: -29px;
+            right: 0;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+        }
+
+        .quality h2 {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 49px;
+        }
+
+        .quality-text {
+            border-right: 0;
+        }
+
+        .quality-text p {
+            font-size: 20px;
+        }
+
+        .quality-text i {
+            font-size: 31px;
+        }
+
+        .brands h2 {
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 34px;
+        }
+
+        .heading_style {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 43px;
+        }
+
+        .acount-one {
+            width: 100%;
+            float: left;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* .create-icon {
+            width: 142px;
+            padding-left: 0;
+        } */
+
+        .account .row::after {
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 92%;
+            right: 0;
+            width: 1px;
+            height: 80px;
+            content: "";
+            background: #0284cd;
+        }
+
+        .footer-form-text h1 {
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            font-family: 'DM Serif Display', serif;
+            font-size: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+        }
+
+        .footer-part {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .middel-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .middel-footer li {
+            padding-bottom: 15px;
+            padding-right: 32px;
+        }
+
+        .contact article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact ul li {
+            color: #fff;
+            padding-right: 37px;
+            font-size: 14px;
+        }
+
+        .bootom-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .bootom-footer nav {
+            padding-left: 5px;
+            padding-bottom: 41px;
+        }
+
+        .bootom-footer-content p {
+            font-size: 14px;
+        }
+
+        .footer-text p {
+            color: #fff;
+            padding-top: 27px;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+
+    @media only screen and (max-width: 280px) {
+        .stellarnav.mobile ul {
+            background: #000000d6;
+        }
+
+        .video {
+            margin-top: -88px;
+        }
+
+        .middel-footer ul {
+            text-align: center;
+        }
+
+        .contact ul {
+            text-align: center;
+        }
+
+        .stellarnav li a {
+            padding: 25px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: inherit;
+            font-family: inherit;
+            box-sizing: border-box;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+            font-weight: bold;
+            /* border-bottom: 0; */
+        }
+
+        .stellarnav .menu-toggle span.bars span {
+            display: block;
+            width: 15px;
+            height: 2px;
+            border-radius: 6px;
+            background: #fff;
+            margin: 0 0 3px;
+        }
+
+        .stellarnav.mobile {
+            position: static;
+            padding-left: 9rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .rent-home-banner-text h1 {
+            font-size: 20px;
+            padding-top: 0;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .rent-home-banner-text .number {
+            font-size: 32px;
+            font-weight: 800;
+        }
+
+        .rent-home-banner h6 {
+            padding-right: 0;
+            padding-bottom: 16px;
+            font-size: 18px;
+            color: #6ee7b7;
+            position: relative;
+            z-index: 1;
+            padding-top: 23px;
+        }
+
+        .rent-home-banner-form {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            background: rgb(255 255 255 / 21%);
+            padding: 34px 36px;
+            box-shadow: 0px 4px -1px #757171;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .about-image-text p {
+
+            font-size: 16px;
+
+        }
+
+        .about-image-text h2 {
+            padding-bottom: 15px;
+            color: #6ee7b7;
+            font-family: "DM Serif Display", serif;
+            font-weight: 800;
+            font-size: 36px;
+            letter-spacing: 10px;
+            position: relative;
+            left: 0px;
+            top: -16px;
+            text-shadow: 1px 1px 46px #fff;
+            text-align: center;
+        }
+
+        .about-image-text h5 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-top: -28px;
+            text-align: center;
+        }
+
+        .why-choose h1 {
+            text-align: center;
+            padding-bottom: 67px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        .icon-image-home {
+            box-shadow: 1px 1px 6px 1px #a7a7a7;
+            padding: 32px 16px;
+            transition: 0.3s;
+            margin-bottom: 21px;
+        }
+
+        .home-content-text h3 {
+            padding-top: 16px;
+            font-size: 21px;
+        }
+
+        .home-content-text p {
+            font-size: 15px;
+        }
+
+        .rent-video-text h2 {
+            padding-bottom: 7px;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 29px;
+            padding-left: 0;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .rent-video-text p {
+            line-height: 31px;
+            font-size: 19px;
+            text-align: left;
+        }
+
+        .play-button {
+            position: absolute;
+            bottom: 0;
+            left: -4px;
+            top: -29px;
+            right: 0;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+        }
+
+        .quality h2 {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 49px;
+        }
+
+        .quality-text {
+            border-right: 0;
+        }
+
+        .quality-text p {
+            font-size: 20px;
+        }
+
+        .quality-text i {
+            font-size: 31px;
+        }
+
+        .brands h2 {
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 62px;
+            font-size: 34px;
+        }
+
+        .heading_style {
+            text-align: center;
+            color: #6ee7b7;
+            font-family: 'DM Serif Display', serif;
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 43px;
+        }
+
+        .acount-one {
+            width: 100%;
+            float: left;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* .create-icon {
+            width: 142px;
+            padding-left: 0;
+        } */
+
+        .account .row::after {
+            position: absolute;
+            left: 0;
+            margin: 0 auto;
+            top: 92%;
+            right: 0;
+            width: 1px;
+            height: 80px;
+            content: "";
+            background: #0284cd;
+        }
+
+        .footer-form-text h1 {
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            font-family: 'DM Serif Display', serif;
+            font-size: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+        }
+
+        .footer-part {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .middel-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .middel-footer li {
+            padding-bottom: 15px;
+            padding-right: 32px;
+        }
+
+        .contact article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact ul li {
+            color: #fff;
+            padding-right: 37px;
+            font-size: 14px;
+        }
+
+        .bootom-footer article {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+
+        .bootom-footer nav {
+            padding-left: 5px;
+            padding-bottom: 41px;
+        }
+
+        .bootom-footer-content p {
+            font-size: 14px;
+        }
+
+        .footer-text p {
+            color: #fff;
+            padding-top: 27px;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
